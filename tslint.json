@@ -1,0 +1,15 @@
+{
+    "extends": "tslint:latest",
+    "rules": {
+        "no-namespace": false,
+        "object-literal-sort-keys": false,
+        "no-unused-variable": true,
+        "max-line-length": false,
+        "trailing-comma": false,
+        "interface-name": true,
+        "no-any": true,
+        "curly": false,
+        "quotemark": [true, "single", "avoid-escape"],
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case" ]
+    }
+}

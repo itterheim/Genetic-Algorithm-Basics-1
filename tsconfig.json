@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES5",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./build",
+        "noImplicitAny": true,
+        "sourceMap": true
+    },
+    "quotemark": [true, "single", "avoid-escape"],
+    "buildOnSave": true,
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
